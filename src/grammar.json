@@ -7110,17 +7110,6 @@
     "_class_body_declaration",
     "_variable_initializer"
   ],
-  "supertypes": [
-    "expression",
-    "declaration",
-    "statement",
-    "primary_expression",
-    "_literal",
-    "_type",
-    "_simple_type",
-    "_unannotated_type",
-    "comment",
-    "module_directive"
-  ]
+  "supertypes": []
 }
 

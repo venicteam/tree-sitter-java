@@ -35,18 +35,7 @@ module.exports = grammar({
     /\s/
   ],
 
-  supertypes: $ => [
-    $.expression,
-    $.declaration,
-    $.statement,
-    $.primary_expression,
-    $._literal,
-    $._type,
-    $._simple_type,
-    $._unannotated_type,
-    $.comment,
-    $.module_directive,
-  ],
+  
 
   inline: $ => [
     $._name,
